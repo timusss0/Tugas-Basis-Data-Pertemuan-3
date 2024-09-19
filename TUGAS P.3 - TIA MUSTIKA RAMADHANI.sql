@@ -9,7 +9,6 @@ CREATE TABLE customers(
 	country VARCHAR(100) 
 ); 
 
- 
 
 -- Ambil data dari Excel 
 -- Insert ke dalam table Customers 
@@ -187,4 +186,3 @@ SELECT * FROM TableA a FULL OUTER JOIN TableB b ON a.Key = b.Key WHERE a.Key IS 
 -- 7. INNER JOIN 
 SELECT * FROM TableA a INNER JOIN TableB b ON a.Key = b.Key; 
 
- 
